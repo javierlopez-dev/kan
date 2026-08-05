@@ -53,6 +53,10 @@ const config = {
           protocol: "http",
           hostname: "localhost",
         },
+        {
+          protocol: "http",
+          hostname: "s3.localtest.me",
+        },
       ];
 
       return patterns;
